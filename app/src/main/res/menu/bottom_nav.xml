@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title=""
+        android:id="@+id/category"
+        android:icon="@drawable/category"
+        android:iconTint="@color/black"
+        />
+
+    <item android:title=""
+        android:id="@+id/people"
+        android:icon="@drawable/people"/>
+
+    <item android:title=""
+        android:id="@+id/message"
+        android:icon="@drawable/message"/>
+
+    <item android:title=""
+        android:id="@+id/setting"
+        android:icon="@drawable/setting_2"/>
+</menu>

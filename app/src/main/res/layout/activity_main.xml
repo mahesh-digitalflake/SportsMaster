@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5030E5"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/app_logo"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/tvSportsMaster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sports_master"
+        android:layout_marginTop="49dp"
+        android:layout_below="@id/logoImg"
+        android:layout_marginHorizontal="55dp"
+        android:gravity="center|center_horizontal"
+        android:textSize="29sp"
+        android:textColor="#FFFFFF"
+       android:letterSpacing="0.09"
+        android:shadowDx="0"
+        android:shadowDy="4"
+        android:shadowRadius="10"
+        android:shadowColor="#40FFFFFF"
+        />
+
+</RelativeLayout>

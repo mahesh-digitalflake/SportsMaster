@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/playerRectangle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:background="@color/white"
+    android:elevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/starPlayerIcon"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/playericon"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/player_icon_bg"
+                android:layout_marginLeft="18dp"
+                android:padding="5dp"
+
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:id="@+id/starPlayerCntry"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:text="ENG"
+                    android:layout_weight="1"
+                    android:textSize="6sp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/player_icon_bg"
+                    />
+
+                <TextView
+                    android:id="@+id/starPlayerBwl"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:text="BWL"
+                    android:layout_weight="1"
+                    android:textSize="6sp"
+                    android:gravity="center"
+                    android:background="@drawable/player_icon_bg"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            >
+
+            <TextView
+                android:id="@+id/starPlayerNm"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Monank Patel"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="11dp"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:paddingHorizontal="3dp"
+                android:fontFamily="@font/dmsans_medium"
+                />
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="12dp"
+               android:layout_marginLeft="10dp">
+
+               <ImageView
+                   android:id="@+id/starPlayerCpt"
+                   android:layout_width="15dp"
+                   android:layout_height="15dp"
+                   android:src="@drawable/captain"
+                   android:layout_marginRight="10dp"/>
+
+               <ImageView
+                   android:id="@+id/starPlayerVcpt"
+                   android:layout_width="15dp"
+                   android:layout_height="15dp"
+                   android:src="@drawable/vice_captain"/>
+
+           </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/starPlayerPts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="73 pts"
+            android:textColor="#000000"
+            android:gravity="start"
+            android:layout_marginTop="27dp"
+            android:layout_marginRight="30dp"
+            android:textSize="10sp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/starPlayerCrd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9.5"
+            android:textColor="#000000"
+            android:gravity="start"
+            android:layout_marginTop="27dp"
+            android:textSize="10sp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/starImg"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/star"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

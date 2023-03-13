@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginHorizontal="10dp"
+    android:elevation="10dp"
+    android:background="@drawable/match_manager_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/t20MatchTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ENG T20 MATCH 2022"
+            android:textSize="12sp"
+            android:textColor="#222222"
+            android:layout_marginTop="27dp"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/dmsans_regular"
+            />
+
+        <LinearLayout
+            android:id="@+id/matchDayTimeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/t20MatchTxt"
+            android:layout_marginTop="14dp"
+            >
+            <TextView
+                android:id="@+id/matchDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1d:21m"
+                android:textColor="#5030E5"
+                android:layout_marginLeft="30dp"
+                />
+
+            <TextView
+                android:id="@+id/matchTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="July 24, 5:00 PM"
+                android:textColor="#858585"
+                android:layout_marginLeft="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/rightImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/right_img"
+                android:layout_marginLeft="35dp"/>
+
+            <ImageView
+                android:id="@+id/pencilImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pencil"
+                android:layout_marginLeft="11dp"
+                />
+
+            <ImageView
+                android:id="@+id/wrongImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wrong"
+                android:layout_marginLeft="11dp"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/engVsGermanyTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="England vs Germany"
+            android:textSize="13sp"
+            android:textColor="#222222"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/dmsans_bold"
+            android:layout_below="@+id/matchDayTimeLayout"
+            android:layout_marginBottom="20dp"
+            />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

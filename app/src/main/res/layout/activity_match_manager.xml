@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MatchManager">
+
+    <LinearLayout
+        android:id="@+id/matchManagerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5030E5"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/matchManagerBackBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="15dp"
+            android:src="@drawable/back_arrow" />
+
+        <TextView
+            android:id="@+id/matchManagerTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/matchManagerBackBtn"
+            android:padding="10dp"
+            android:text="Match Manager"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/matchManagerRv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/matchManagerLayout"
+        android:layout_marginBottom="10dp"
+
+        />
+
+</RelativeLayout>
